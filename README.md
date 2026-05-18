@@ -4,7 +4,8 @@
 
 ### Fairness for AI, made simple.
 
-[![Tests](https://github.com/kasra-kakavand/faircheck/actions/workflows/tests.yml/badge.svg)](https://github.com/kasra-kakavand/faircheck/actions/workflows/tests.yml)
+[![PyPI version](https://img.shields.io/pypi/v/faircheck.svg)](https://pypi.org/project/faircheck/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/faircheck.svg)](https://pypi.org/project/faircheck/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
@@ -51,11 +52,16 @@ That's it. No more 100-line scripts. No more custom analysis pipelines.
 
 ## Installation
 
-> **Note:** FairCheck is currently in active development. The PyPI release is coming soon!
+> > **FairCheck v0.1.0 is now available on PyPI!**
 
 ```bash
-# Coming soon
+# Install from PyPI
 pip install faircheck
+
+# Or install development version
+git clone https://github.com/kasra-kakavand/faircheck.git
+cd faircheck
+pip install -e .
 
 # Development version
 git clone https://github.com/kasra-kakavand/faircheck.git
